@@ -19,10 +19,11 @@
     <div class="row">
         <div class="col-sm-10"><h1>Edit Profile</h1></div>
     </div>
-    <form method="post" enctype="multipart/form-data" class="row">
+    <form method="post" enctype="multipart/form-data" >
+        <div class="row">
         <div class="col-sm-3"><!--left col-->
             <div class="text-center">
-                <img src="https://avatarko.ru/img/kartinka/7/zhivotnye_volk_arbuz_6664.jpg"
+                <img style="max-width: 15em" src="${profile.photoSrc!"https://avatarko.ru/img/kartinka/7/zhivotnye_volk_arbuz_6664.jpg"}"
                      alt="avatar">
                 <h6>Загрузите свой аватар</h6>
                 <input type="file" class="text-center center-block file-upload" name="photo">
@@ -85,7 +86,7 @@
                 </div><!--/tab-pane-->
             </div>
         </div>
-
+            </div>
     </form>
 
 </div>

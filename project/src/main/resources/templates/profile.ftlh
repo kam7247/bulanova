@@ -32,8 +32,7 @@
     <div class="row">
         <div class="col-sm-3"><!--left col-->
             <div class="text-center">
-                <img src="${profile.photoSrc!"https://avatarko.ru/img/kartinka/7/zhivotnye_volk_arbuz_6664.jpg"}"
-                     class="avatar img-circle img-thumbnail"
+                <img style="max-width: 15em" src="${profile.photoSrc!"https://avatarko.ru/img/kartinka/7/zhivotnye_volk_arbuz_6664.jpg"}"
                      alt="Неизвестная ошибка">
                 <h3></h3>
             </div>
